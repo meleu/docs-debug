@@ -8,6 +8,8 @@ repo_url: https://github.com/RetroAchievements/docs/wiki/
 # then set edit_uri to an empty string to disable the automatic setting.
 edit_uri: https://retroachievements.org/wiki-edit-redirect.php?page=
 
+#use_directory_urls: false
+
 docs_dir: docs.wiki
 
 theme:
@@ -46,12 +48,6 @@ plugins:
           - en
           - pt
           - es
-
-# strict 
-# Determines if a broken link to a page within the documentation is considered 
-# a warning or an error (link to a page not listed in the pages setting). Set 
-# to true to halt processing when a broken link is found, false prints a warning 
-#strict: true
 
 # dev_addr 
 # Determines the address used when running mkdocs serve. 
