@@ -1,6 +1,18 @@
 # docs-debug
 Temporary repo to debug stuff here: https://github.com/squidfunk/mkdocs-material/discussions/2592
 
+## steps to reproduce
+
+```
+git clone https://github.com/meleu/docs-debug
+cd docs-debug/
+docker container run --rm -v ${PWD}:/docs squidfunk/mkdocs-material build
+```
+
+Now, inside the `site/` dir, every `index.html` file that is inside a subdirectory, when they have a link to another pages, they are not linked to `../Another-Page`. Instead, they are linked to `Current-Page/Another-Page`.
+
+A detailed example is described below.
+
 
 ## `nav:` section
 
