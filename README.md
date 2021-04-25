@@ -1,5 +1,5 @@
 # docs-debug
-Temporary repo to debug stuff
+Temporary repo to debug stuff here: https://github.com/squidfunk/mkdocs-material/discussions/2592
 
 
 ## `nav:` section
